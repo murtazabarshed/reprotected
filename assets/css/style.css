@@ -1,0 +1,558 @@
+@import url("font-awesome.min.css");
+
+/* Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* ===================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+body{
+	font-family: arial;
+}
+
+body.landing{
+	padding: 0;
+}
+
+#header {
+    position: absolute;
+    background: transparent;
+    font-size: 1.25em;
+    padding: 2em 3em;
+}
+
+#header.alt{
+	color: white;
+	text-align: right;
+	left: 0;
+	right: 0;
+}
+
+nav a{
+	color: white;
+}
+
+#header.alt h1{
+	float: left;
+	position: static;
+	color: inherit;
+}
+
+nav a{
+
+}
+
+#banner{
+	background-color: grey;
+	background-image: url('../img/banner.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+.fa-diamond {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+#banner{
+	padding: 8em 0 11em 0;
+}
+
+#banner h2 {
+    font-size: 2em;
+    font-family: arial;
+    margin: 30px auto;
+}
+
+#banner p{
+	font-family: arial;
+	font-size: 1.5em;
+	margin: 20px auto 40px;
+}
+
+.learn {
+    background-color: #51baa4;
+    color: white;
+    font-size: 1.1em;
+    font-family: arial;
+    padding: 20px 40px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.learn:hover{
+    background-color: transparent;
+    border:1px solid #51baa4;
+    color: #51baa4;
+}
+
+.wrapper.style{
+    background-color: #ebe8e8;
+    color: #777777;
+    padding: 5em 0 5em 0;
+}
+
+.inner{
+   max-width: 65em;
+}
+
+.wrapper > .inner{
+    margin: 0 auto;
+}
+
+article.column{
+    background-color:white; 
+    display: flex;
+    margin-bottom: 10px;
+}
+article.column:nth-child(2){
+    background-color: green;
+    flex-direction: row-reverse;
+}
+.images{
+    width: 50%;
+    display: block;
+}
+.images img{
+    width: 100%;
+}
+.content{
+    width: 50%;
+}
+.content h1{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.content p{
+    line-height: 30px;
+}
+
+.content ul li a{
+    color:#51baa4;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #51baa4;
+    padding: 15px 50px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.content ul li a:hover{
+    background-color: #51baa4;
+    color:#fff;
+}
+
+
+header.narrow{
+    text-align: center;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+
+.wrapper.special{
+    margin: 8em 0 0 0em;
+}
+
+header h2{
+    font-size: 2.5em;
+}
+
+.image-grid{
+   background-color: red;
+   display: flex;
+   flex-wrap: wrap;
+}
+.image{
+   width: 25%;
+}
+.image img{
+    width: 100%;
+}
+header p{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+ul.actions{
+    margin: 4em auto;
+    text-align: center;
+}
+
+ul.actions li a{
+    font-size: 1.3em;
+    color: #51baa4;
+    padding: 1em 2em;
+    border: 1px solid #51baa4;
+    border-radius: 50px;
+}
+ul.actions li a:hover{
+    background-color: #51baa4;
+    color:white;
+}
+.style3{
+    background-image: url(../img/pic11.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    color: white;
+    padding: 5em 0;
+}
+
+.style3 ul.actions{
+    margin-bottom: 0;
+}
+
+.style4{
+    background-color: #1e2832;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+
+}
+
+input[type="text"], input[type="email"]{
+    background-color: #29323c;
+    border: none;
+    width: 35%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+    color: white;
+}
+::-webkit-textarea-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+    color: white;
+}
+
+textarea{
+    width: 70.2%;
+    border: none;
+    background-color: #29323c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+
+ul.actions li{
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.actions li input[type="submit"]{
+    border: 2px solid #51baa4;
+    border-radius: 25px;
+    width: 146px;
+    height: 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #51baa4;
+    color: white;
+    cursor: pointer;
+}
+ul.actions li input[type="submit"]:hover{
+    color: black;
+}
+
+ul.actions li input[type="reset"]{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 146px;
+    height: 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+ul.actions li input[type="reset"]:hover{
+    color: black;
+}
+
+.line{
+    background-color: #343d46;
+    width: 100%;
+    height: 1px;
+}
+footer{
+    background-color: #1e2832;
+    text-align: center;
+    color: #a5a9ad;
+    padding-bottom: 2em;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+footer p a{
+    color: #a5a9ad;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+ul.social{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+ul.social li{
+    display: inline-block;
+    padding-right: 2em;
+
+}
+ul.social li:last-child{
+    padding-right: 0em;
+}
+
+ul.social li a{
+    color: #a5a9ad;
+}
+ul.social li a:hover{
+    color:#7b7d80;
+
+}
+img{
+    max-width: 100%;
+}
+@media only screen and (max-width: 786px){
+    .image-grid .image{
+        width: 50%;
+    }
+     .image-grid .image img{
+        width: 100%;
+     }
+     header h2{
+        font-size: 1.5em;
+     }
+     header p{
+        font-size: 0.875em;
+     }
+     ul.actions{
+        margin: 2em auto;
+     }
+     ul.actions li a{
+        font-size:0.875em; 
+        padding: 0.625em 1em;
+     }
+     .content h1{
+        font-size:16px;
+        line-height: 20px; 
+     }
+     .content p{
+        line-height: 20px;
+        font-size: 10px;
+     }
+     .content ul li a{
+        font-size: 10px;
+        padding: 10px 40px;
+     }
+     
+     .wrapper.style article,.wrapper.style article:last-child{
+        display: block;
+     }
+     .images,.content{
+        width: 100%;
+        max-width: 100%;
+        display: block;
+     }
+}
+
+
+
+/* ---------------- side menu css ----------------*/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+
+
+/* -------------------- side menu css end ---------------*/
